@@ -1,0 +1,82 @@
+footer {
+    background-color: #121315;
+    color: #fff;
+    padding: 0px 0;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 ;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 8px;
+    max-width: 300px;
+
+  }
+
+  .heading {
+    margin:0px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .subHeading {
+    margin:0px;
+    font-size: medium;
+    font-weight: 200;
+    color: grey;
+
+  }
+  .paragraphTag {
+    margin:0px;
+    font-size: small;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 100;
+    color: grey;
+  }
+  input{
+    border-radius: 5px;
+    width: 65%;
+    height: 18%;
+    padding: 11px;
+  }
+ 
+  .button{
+    background-color: skyblue;
+    width: 74%;
+
+    border-radius: 5px;
+    padding: 12px 11px;
+  }
+
+  /* CSS for styles common to all screen sizes and orientations */
+
+/* Media query for small-sized devices (max-width: 767px) in portrait orientation */
+@media screen and (max-width: 815px)  {
+
+
+  .container {
+    /* Add your styles here for the container on small-sized vertical screens */
+    /* For example: */
+   flex-direction: column;
+   gap: 20px;
+   padding: 30px;
+   }
+
+   
+
+}
+
+ 
+
+  
